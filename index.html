@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Security Disclosure - JKT-NODSOC</title>
+    <style>
+        :root {
+            --primary: #00d4ff;
+            --bg: #0f172a;
+        }
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: var(--bg);
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            overflow: hidden;
+        }
+        /* Glassmorphism Effect */
+        .card {
+            background: rgba(255, 255, 255, 0.05);
+            backdrop-filter: blur(15px);
+            -webkit-backdrop-filter: blur(15px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 20px;
+            padding: 40px;
+            text-align: center;
+            box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.8);
+            max-width: 500px;
+            width: 90%;
+        }
+        .logo {
+            font-size: 3rem;
+            margin-bottom: 10px;
+        }
+        h1 {
+            font-size: 1.5rem;
+            color: var(--primary);
+            margin-bottom: 5px;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+        h2 {
+            font-size: 1.2rem;
+            font-weight: 300;
+            margin-bottom: 30px;
+            color: #94a3b8;
+        }
+        .status {
+            display: inline-block;
+            padding: 8px 20px;
+            background: rgba(0, 212, 255, 0.1);
+            border: 1px solid var(--primary);
+            border-radius: 50px;
+            font-size: 0.9rem;
+            margin-bottom: 20px;
+        }
+        .footer {
+            margin-top: 30px;
+            font-size: 0.8rem;
+            color: #64748b;
+        }
+        .highlight {
+            color: var(--primary);
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="card">
+        <div class="logo">🛡️</div>
+        <div class="status">Subdomain Takeover Verified</div>
+        <h1>Takeover By</h1>
+        <h2>Jakarta Network of Disclosure <br><span class="highlight">JKT-NODSOC</span></h2>
+        
+        <p style="font-size: 0.9rem; line-height: 1.6; color: #cbd5e1;">
+            This subdomain was found to be vulnerable and has been claimed for 
+            <span class="highlight">Responsible Disclosure</span> purposes. 
+            No sensitive data was accessed or modified during this process.
+        </p>
+
+        <div class="footer">
+            Reported by: <span style="color: white;">Satpam Komplek IT</span><br>
+            © 2026 Santri Production & JKT-NODSOC
+        </div>
+    </div>
+
+</body>
+</html>
